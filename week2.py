@@ -48,7 +48,7 @@ def tokenize(code):
 
 
 # Test the lexical analyzer with Zara-like sample code
-def main():
+def default():
     code = """
     int a = 10;
     float b = 3.14;
@@ -70,4 +70,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    default()
